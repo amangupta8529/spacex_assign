@@ -112,3 +112,4 @@ const DataGrid = ({ data, searchCriteria }) => {
 };
 
 export default DataGrid;
+ 
