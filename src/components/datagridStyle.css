@@ -1,0 +1,93 @@
+/* DataGrid Styles
+
+.data-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+
+.data-grid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.data-grid-table th,
+.data-grid-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.data-grid-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.data-grid-table tr:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+} */
+
+
+/* Table Styles */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: center;
+    /* Center align the table cells */
+}
+
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table td {
+    border-top: 1px solid #ddd;
+}
+
+.table-row:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+/* Pagination Styles */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.pagination button.active {
+    background-color: #0056b3;
+}
